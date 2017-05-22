@@ -3,7 +3,7 @@
 const expect = require('chai').expect;
 const SLL = require('../lib/singly-linked-list');
 
-describe.only('Singly Linked List', function() {
+describe('Singly Linked List', function() {
   describe('prepend()', function() {
     let sll;
 
@@ -108,7 +108,6 @@ describe.only('Singly Linked List', function() {
     it('should return the value of the removed node', function() {
       sll.append(5);
       expect(sll.head.val).to.equal(1);
-      console.log('listPOOP', sll);
       expect(sll.removeTail()).to.equal(5);
     });
   });
