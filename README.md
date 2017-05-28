@@ -1,1 +1,1 @@
-## Codewars Practice
+## Data Structures & Algorithms Practice
